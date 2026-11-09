@@ -1,0 +1,18 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="api" type="js.build_tools.npm" nameIsGenerated="false">
+    <package-json value="$PROJECT_DIR$/api/package.json" />
+    <command value="run" />
+    <scripts>
+      <script value="start" />
+    </scripts>
+    <node-interpreter value="project" />
+    <envs>
+      <env name="DYNAMODB_ENDPOINT" value="http://localhost:8000" />
+      <env name="AWS_REGION" value="us-east-1" />
+      <env name="AWS_ACCESS_KEY_ID" value="local" />
+      <env name="AWS_SECRET_ACCESS_KEY" value="local" />
+      <env name="MONGODB_URI" value="mongodb://localhost:27017/app" />
+    </envs>
+    <method v="2" />
+  </configuration>
+</component>
